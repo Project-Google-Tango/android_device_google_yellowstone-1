@@ -186,6 +186,7 @@ PRODUCT_PACKAGES += \
 # Wi-Fi
 PRODUCT_PACKAGES += \
     hostapd \
+    wificond \
     wpa_supplicant \
     wpa_supplicant.conf
 
