@@ -136,6 +136,7 @@ PRODUCT_PACKAGES += \
 # Ramdisk
 PRODUCT_PACKAGES += \
     fstab.yellowstone \
+    init.comms.rc \
     init.hdcp.rc \
     init.icera.rc \
     init.icera.common.rc \
@@ -162,6 +163,12 @@ PRODUCT_PACKAGES += \
 # Thermal
 PRODUCT_PACKAGES += \
     thermal.tegra
+
+# Unified scaling
+PRODUCT_PACKAGES += \
+    init.ussrd.rc \
+    ussr_setup \
+    ussrd.conf
 
 # Wi-Fi
 PRODUCT_PACKAGES += \
