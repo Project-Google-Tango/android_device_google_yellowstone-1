@@ -54,6 +54,8 @@ PRODUCT_COPY_FILES += \
 # NFC
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/nfc/libnfc-brcm.conf:system/etc/libnfc-brcm.conf \
+    $(LOCAL_PATH)/nfc/libnfc-brcm.conf:system/etc/libnfc-brcm-43341.conf \
+    $(LOCAL_PATH)/nfc/libnfc-brcm.conf:system/etc/libnfc-brcm-43341b00.conf \
     $(LOCAL_PATH)/nfc/nfcee_access.xml:system/etc/nfcee_access.xml
 
 # RemovePackages
